@@ -1,8 +1,8 @@
 {
   "id": "htp.raid.w1.b4.all",
-  "name": "Sabetha the Saboteur Icon pack\nAll Cannons + trails",
+  "name": "Sabetha the Saboteur Icon pack\nAll Cannons",
   "category": "W1: Spirit Vale",
-  "description": "• Type: Automatic\n---Displays---\n• When each cannon spawns.\n• Where to throw by use of icons\n• Unique timings for all cannon spawns.\n• trails spawn 5 seconds before thrown, lasts 7 seconds",
+  "description": "• Type: Automatic\n---Displays---\n• When each cannon spawns.\n• Where to throw by use of icons",
   "author": "\nBlazkowitz.2438, Based upon work by QuitarHero.1645",
   "icon": "Data/Raids/Sabetha.png",
   "map": 1062,
@@ -20,6 +20,11 @@
       },
       //Alerts
       "alerts": [
+        //Initial Notification
+        { "alert": "Timer: All Cannons, Icon pack", "fillColor": [113, 73, 65, 0],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Raids/Sabetha.png"
+        },
         //Arrow Cannon (S)
         { "warning": "Next: Arrow Cannon (S)", "fillColor": [113, 73, 65, 0],
           "warningDuration": 30, "timestamps": [34],
@@ -88,22 +93,6 @@
       ],
       //Trails
       "directions": [
-        { "name": "Circle Cannon (W) ", "destination": [-155.7, 86.8, 62.2],
-          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
-          "timestamps": [60, 210, 300, 450, 540], "duration": 7
-        },
-        { "name": "Heart Cannon (N)", "destination": [-127.1, 109.6, 62.8],
-          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
-          "timestamps": [90, 180, 330, 420], "duration": 7
-        },
-        { "name": "Square Cannon (E)", "destination": [-104.0, 81.4, 62.9],
-          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
-          "timestamps": [120, 240, 360, 480], "duration": 7
-        },
-        { "name": "Arrow Cannon (S)", "destination": [-132.4, 58.5, 62.8],
-          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
-          "duration": 7, "timestamps": [30, 150, 270, 390, 510]
-        }
       ]
     }
   ]
