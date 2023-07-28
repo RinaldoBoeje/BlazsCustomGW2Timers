@@ -1,0 +1,68 @@
+{
+  "id": "htp.raid.w1.b4.all",
+  "name": "Sabetha the Saboteur Icon pack\nAll Cannons only trails",
+  "category": "W1: Spirit Vale",
+  "description": "• Type: Automatic\n---Displays---\n• A trail with appear 10 seconds before a bomb has to be thrown\n• Trail flashes twice before staying on\n•After second flash trail remains on \n• use in combination with other timers.",
+  "author": "\nBlazkowitz.2438, Based upon work by QuitarHero.1645",
+  "icon": "Data/Raids/Sabetha.png",
+  "map": 1062,
+  "reset": { "position": [-59.57044, 192.4689, 72.23109], "radius": 5,
+    "requireEntry": true, "requireOutOfCombat": true
+  },
+  "phases": [
+    {
+      "name": "All Cannon trails only",
+      "start": { "position": [-130, 85, 62], "radius": 50,
+        "requireEntry": true, "requireCombat": true
+      },
+      "finish": { "position": [-169.8675, 50.4107, 69.32044], "radius": 10,
+        "requireEntry": true
+      },
+      //Alerts
+      "alerts": [
+        //Initial Notification
+        { "alert": "Timer: All Cannons, trails only", "fillColor": [113, 73, 65, 0],
+          "alertDuration": 4, "timestamps": [0],
+          "icon": "Data/Raids/Sabetha.png"
+        }
+      ],
+      //Trails
+      "directions": [
+        { "name": "Circle Cannon (W) flash ", "destination": [-155.7, 86.8, 62.2],
+          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
+          "timestamps": [58,56, 208,206, 298,296, 448,446, 538,536], "duration": 1
+        },
+        { "name": "Heart Cannon (N)flash", "destination": [-127.1, 109.6, 62.8],
+          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
+          "timestamps": [88, 86, 178,176, 328,326, 418,416], "duration": 1
+        },
+        { "name": "Square Cannon (E)flash", "destination": [-104.0, 81.4, 62.9],
+          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
+          "timestamps": [118,116, 2238,236, 358,356, 478,476], "duration": 1
+        },
+        { "name": "Arrow Cannon (S)flash", "destination": [-132.4, 58.5, 62.8],
+          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
+          "duration": 1, "timestamps": [28,26, 148,146, 268,266, 388,386, 508,506]
+        },
+
+
+        { "name": "Circle Cannon (W) ", "destination": [-155.7, 86.8, 62.2],
+          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
+          "timestamps": [60, 210, 300, 450, 540], "duration": 6
+        },
+        { "name": "Heart Cannon (N)", "destination": [-127.1, 109.6, 62.8],
+          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
+          "timestamps": [90, 180, 330, 420], "duration": 6
+        },
+        { "name": "Square Cannon (E)", "destination": [-104.0, 81.4, 62.9],
+          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
+          "timestamps": [120, 240, 360, 480], "duration": 6
+        },
+        { "name": "Arrow Cannon (S)", "destination": [-132.4, 58.5, 62.8],
+          "texture": "Data/General/ArrowTrail.png", "animSpeed": 0,
+          "duration": 6, "timestamps": [30, 150, 270, 390, 510]
+        }
+      ]
+    }
+  ]
+}
