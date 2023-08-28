@@ -4,7 +4,11 @@ Customized timers for the Blish Hud 2 Timers Addon.
 Currently Available
 
 Wing 1: 
-Sabetha, All Canons, With Icon Names for direction Markers, Start Check to see if all icons are in the correct place and Floor trails to direct where to throw the bomb towards. 
+Sabetha, 
+  All Canons, Notifications only
+  All Canons, Floor trails only (No notifications) 
+  All canons, Notifications and floor trails
+  Pre setup, test for the floor trails, and to see which direction supports which commander marker. 
 
 To Install
 Download the available .bhtimer file(s) needed. 
