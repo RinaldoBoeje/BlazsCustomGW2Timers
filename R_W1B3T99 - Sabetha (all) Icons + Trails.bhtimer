@@ -2,8 +2,8 @@
   "id": "htp.raid.w1.b4.all",
   "name": "Sabetha the Saboteur Icon pack\nAll Cannons + trails",
   "category": "W1: Spirit Vale",
-  "description": "• Type: Automatic\n---Displays---\n• When each cannon spawns.\n• Where to throw by use of icons\n• Unique timings for all cannon spawns.\n• trails spawn 5 seconds before thrown, lasts 7 seconds",
-  "author": "\nBlazkowitz.2438, Based upon work by QuitarHero.1645",
+  "description": "• Type: Automatic\n---Displays---\n• countdown 30 seconds before a canon spawns \n• Floor trails directing to the canon 5 seconds before spawn, lasts 7 seconds. \n• Utilises icons, instead of just compass directions 
+  "author": "\nQuitarHero.1645 (with modifications by Blazkowitz.2438)",
   "icon": "Data/Raids/Sabetha.png",
   "map": 1062,
   "reset": { "position": [-59.57044, 192.4689, 72.23109], "radius": 5,
